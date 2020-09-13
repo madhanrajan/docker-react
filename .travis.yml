@@ -11,10 +11,6 @@ script:
 
 deploy:
     provider: azure_web_apps
-    site: https://react-dock.azurewebsites.net
-    username: $USERNAME
-    password:
-        secure: $PASSWORD
     on:
         branch: master
         
